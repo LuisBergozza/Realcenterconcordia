@@ -2,21 +2,21 @@
    Logos em /public/assets/img/Marcas. Para adicionar uma marca, basta
    incluir { name, src } na lista abaixo. */
 const BRANDS = [
-  { name: "ArcelorMittal", src: "/assets/img/Marcas/Ativo 1@4x.png" },
-  { name: "Plasbil Revestimentos", src: "/assets/img/Marcas/Ativo 2@4x.png" },
-  { name: "Quick-Step", src: "/assets/img/Marcas/Sem Título-1.png" },
-  { name: "Balcony", src: "/assets/img/Marcas/logo_site.png" },
-  { name: "Supremo Cimentos", src: "/assets/img/Marcas/logo-supremo.png" },
-  { name: "Embramaco", src: "/assets/img/Marcas/escolha-logo-porcelanato.png" },
-  { name: "Votorantim Cimentos", src: "/assets/img/Marcas/Logotipo_da_Votorantim_Cimentos.svg.png" },
-  { name: "Castelli", src: "/assets/img/Marcas/castelli.png" },
-  { name: "Deca", src: "/assets/img/Marcas/deca-logo-png_seeklogo-250034.png" },
-  { name: "Delta", src: "/assets/img/Marcas/delta.png" },
-  { name: "Eucafloor", src: "/assets/img/Marcas/eucafloor.png" },
-  { name: "Gerdau", src: "/assets/img/Marcas/gerdau.png" },
-  { name: "Graddus", src: "/assets/img/Marcas/graddus.png" },
-  { name: "Gaudí Porcelanato", src: "/assets/img/Marcas/imagem-logomarca-gaudi-porcelanato-gaudi-porcelanato-1696516995-0510232023114315.png" },
-  { name: "Docol", src: "/assets/img/Marcas/logo-docol.png" },
+  { name: "ArcelorMittal", src: "/assets/img/Marcas/Ativo 1@4x.webp" },
+  { name: "Plasbil Revestimentos", src: "/assets/img/Marcas/Ativo 2@4x.webp" },
+  { name: "Quick-Step", src: "/assets/img/Marcas/Sem Título-1.webp" },
+  { name: "Balcony", src: "/assets/img/Marcas/logo_site.webp" },
+  { name: "Supremo Cimentos", src: "/assets/img/Marcas/logo-supremo.webp" },
+  { name: "Embramaco", src: "/assets/img/Marcas/escolha-logo-porcelanato.webp" },
+  { name: "Votorantim Cimentos", src: "/assets/img/Marcas/Logotipo_da_Votorantim_Cimentos.svg.webp" },
+  { name: "Castelli", src: "/assets/img/Marcas/castelli.webp" },
+  { name: "Deca", src: "/assets/img/Marcas/deca-logo-png_seeklogo-250034.webp" },
+  { name: "Delta", src: "/assets/img/Marcas/delta.webp" },
+  { name: "Eucafloor", src: "/assets/img/Marcas/eucafloor.webp" },
+  { name: "Gerdau", src: "/assets/img/Marcas/gerdau.webp" },
+  { name: "Graddus", src: "/assets/img/Marcas/graddus.webp" },
+  { name: "Gaudí Porcelanato", src: "/assets/img/Marcas/imagem-logomarca-gaudi-porcelanato-gaudi-porcelanato-1696516995-0510232023114315.webp" },
+  { name: "Docol", src: "/assets/img/Marcas/logo-docol.webp" },
 ];
 
 export default function Brands() {

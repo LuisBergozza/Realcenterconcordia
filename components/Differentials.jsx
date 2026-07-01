@@ -33,8 +33,19 @@ export default function Differentials() {
         </header>
 
         <div className="whychoose">
-          {/* TROCAR: imagem da seção (loja, equipe ou ambiente) */}
-          <div className="whychoose__media reveal" aria-hidden="true"></div>
+          <div className="whychoose__media reveal" aria-hidden="true">
+            <video
+              className="whychoose__video"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/assets/videos/motivo-poster.webp"
+            >
+              <source src="/assets/videos/motivo-web.mp4" type="video/mp4" />
+            </video>
+          </div>
 
           <div className="cards cards--2">
             {CARDS.map((card) => (

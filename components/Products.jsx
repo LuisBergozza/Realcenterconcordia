@@ -9,12 +9,14 @@ const GROUPS = [
     key: "construcao-bruta",
     name: "Construção Bruta",
     desc: "A base sólida para erguer a sua obra.",
+    img: "/assets/img/Produtos/construção bruta.webp",
     items: ["Cimento", "Cal", "Areia", "Brita", "Blocos", "Tijolos", "Vergalhões"],
   },
   {
     key: "acabamentos",
     name: "Acabamentos",
     desc: "O toque final que transforma ambientes.",
+    img: "/assets/img/Produtos/acabamento.webp",
     items: [
       "Porcelanatos",
       "Pisos",
@@ -28,12 +30,14 @@ const GROUPS = [
     key: "banheiro",
     name: "Banheiro",
     desc: "Louças, metais e acessórios completos.",
+    img: "/assets/img/Produtos/banheiro.webp",
     items: ["Vasos", "Cubas", "Torneiras", "Chuveiros", "Acessórios"],
   },
   {
     key: "hidraulica",
     name: "Hidráulica",
     desc: "Tudo para a instalação de água e esgoto.",
+    img: "/assets/img/Produtos/hidraulica.webp",
     items: ["Tubos", "Conexões", "Caixas d'água", "Bombas"],
   },
 ];
@@ -76,8 +80,8 @@ export default function Products() {
               key={g.key}
               onClick={() => setOpenKey(g.key)}
               aria-haspopup="dialog"
+              style={{ backgroundImage: `url("${g.img}")` }}
             >
-              {/* TROCAR: foto representativa da categoria (background via CSS) */}
               <span className="category__overlay"></span>
               <span className="category__label">{g.name}</span>
             </button>

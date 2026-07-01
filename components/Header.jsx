@@ -63,7 +63,7 @@ export default function Header() {
         <a className="brand" href="#topo" aria-label="Real Center Materiais de Construção — página inicial">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/assets/img/logo.png"
+            src="/assets/img/logo.webp"
             alt="Real Center Materiais de Construção"
             className="brand__logo"
             width="220"
@@ -110,6 +110,14 @@ export default function Header() {
           <span></span>
         </button>
       </div>
+
+      {open && (
+        <div
+          className="nav-backdrop"
+          onClick={() => setOpen(false)}
+          aria-hidden="true"
+        />
+      )}
     </header>
   );
 }

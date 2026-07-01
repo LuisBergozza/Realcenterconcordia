@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <section className="section" id="sobre" aria-labelledby="sobre-title">
-      <div className="container grid-2">
+      <div className="container grid-2 grid-2--about">
         <div className="reveal">
           <p className="eyebrow">Sobre a Real Center</p>
           <h2 id="sobre-title" className="section__title">
@@ -9,9 +9,7 @@ export default function About() {
           </h2>
           <p className="section__text">
             Mais do que uma loja de materiais, a Real Center é um parceiro para quem
-            busca qualidade, confiança e bom atendimento. Reunimos em um só lugar uma
-            seleção criteriosa de produtos, com o suporte de uma equipe que entende de
-            obra e de acabamento.
+            busca qualidade, confiança e bom atendimento.
           </p>
           <p className="section__text">
             Do alicerce ao acabamento final, acompanhamos cada etapa do seu projeto

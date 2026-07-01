@@ -22,21 +22,16 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* TROCAR: vídeo ou fotos profissionais da loja.
-            Para usar vídeo, descomente o bloco <video> abaixo e
-            remova a div .hero__visual-img. */}
-        <div className="hero__visual reveal" aria-hidden="true">
-          {/*
-          <video
-            className="hero__visual-video"
-            autoPlay muted loop playsInline
-            poster="/assets/img/hero-poster.jpg"
-          >
-            <source src="/assets/img/hero.mp4" type="video/mp4" />
-          </video>
-          */}
-          <div className="hero__visual-img"></div>
-          <div className="hero__visual-badge">
+        <div className="hero__visual reveal">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/assets/img/Header/area.webp"
+            alt="Showroom da Real Center — parede verde com o letreiro Seus sonhos podem ser Real Center"
+            className="hero__visual-img"
+            width="900"
+            height="990"
+          />
+          <div className="hero__visual-badge" aria-hidden="true">
             <strong>+19</strong>
             <span>
               anos construindo
