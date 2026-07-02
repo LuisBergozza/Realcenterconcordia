@@ -12,7 +12,7 @@ export default function Numbers() {
       <div className="container">
         <header className="section__head reveal">
           <p className="eyebrow">Números da empresa</p>
-          <h2 id="num-title" className="section__title">
+          <h2 id="num-title" className="section__title section__title--sm">
             A solidez de quem construiu uma história.
           </h2>
         </header>

@@ -24,7 +24,7 @@ export default function Brands() {
   const loop = [...BRANDS, ...BRANDS];
 
   return (
-    <section className="section section--muted" id="marcas" aria-labelledby="marcas-title">
+    <section className="section section--muted section--tight" id="marcas" aria-labelledby="marcas-title">
       <div className="container">
         <header className="section__head reveal">
           <p className="eyebrow">Marcas parceiras</p>

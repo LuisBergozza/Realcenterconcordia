@@ -61,12 +61,12 @@ export default function Products() {
   return (
     <section className="section" id="produtos" aria-labelledby="prod-title">
       <div className="container">
-        <header className="section__head reveal">
+        <header className="section__head section__head--wide reveal">
           <p className="eyebrow">Tudo para a sua obra</p>
-          <h2 id="prod-title" className="section__title">
+          <h2 id="prod-title" className="section__title section__title--oneline">
             Da fundação ao acabamento, em um só lugar.
           </h2>
-          <p className="section__text section__text--center">
+          <p className="section__text section__text--center oneline">
             Explore nossas linhas de produtos. Clique em uma categoria para ver
             tudo o que ela reúne.
           </p>

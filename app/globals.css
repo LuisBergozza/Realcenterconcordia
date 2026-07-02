@@ -46,7 +46,11 @@
   --font-body:    var(--font-manrope), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Escala fluida (clamp = responsivo sem media query) */
+<<<<<<< Updated upstream
   --fs-hero: clamp(2.2rem, 1.3rem + 3.6vw, 3.8rem);
+=======
+  --fs-hero: clamp(1.9rem, 1.1rem + 3vw, 3.4rem);
+>>>>>>> Stashed changes
   --fs-h2:   clamp(1.8rem, 1.3rem + 2.1vw, 2.7rem);
   --fs-h3:   clamp(1.15rem, 1rem + 0.5vw, 1.35rem);
   --fs-lead: clamp(1.02rem, 0.95rem + 0.4vw, 1.18rem);
@@ -113,9 +117,17 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 }
 
 .section { padding-block: var(--section-y); }
+.section--tight { padding-block: clamp(2.5rem, 4vw, 3.75rem); }
 .section__head { max-width: 720px; margin: 0 auto clamp(2.5rem, 5vw, 4rem); text-align: center; }
+.section__head--wide { max-width: 980px; }
 .section__title { font-size: var(--fs-h2); margin-bottom: 1rem; }
 .section__title--sm { font-size: clamp(1.4rem, 1.1rem + 1.1vw, 1.9rem); }
+.section__title--oneline,
+.oneline { white-space: nowrap; }
+@media (max-width: 1024px) {
+  .section__title--oneline,
+  .oneline { white-space: normal; }
+}
 .section__text { color: var(--text-soft); font-size: var(--fs-lead); margin-bottom: 1rem; }
 .section__text--center { text-align: center; }
 
@@ -295,8 +307,8 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 .mvv__item p { color: var(--text-soft); font-size: .97rem; }
 
 /* — Sobre (media) — */
-.grid-2--about { align-items: stretch; }
-.about__media { position: relative; min-height: 460px; height: 100%; align-self: stretch; }
+.grid-2--about { align-items: center; }
+.about__media { position: relative; aspect-ratio: 1 / 1.22; }
 .about__img {
   position: absolute;
   border-radius: var(--radius-lg);
@@ -305,7 +317,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
   box-shadow: var(--shadow-md);
 }
 .about__img--1 {
-  inset: 0 22% 18% 0;
+  inset: 0 22% 8% 0;
   background-image: url("/assets/img/sobre-deposito.webp");
 }
 .about__img--2 {
@@ -316,7 +328,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 }
 .about__badge {
   position: absolute;
-  left: 6%; bottom: 6%;
+  left: 30%; bottom: 10%;
   background: #fff;
   padding: 1rem 1.4rem;
   border-radius: 12px;
@@ -330,7 +342,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 /* — Categorias de produtos — */
 .categories {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 1.2rem;
 }
 .category {
@@ -527,6 +539,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 .brand__logo {
   height: 44px;
   width: auto;
+  object-fit: contain;
   transition: height .4s var(--ease);
 }
 .site-header[data-scrolled] .brand__logo { height: 38px; }
@@ -581,7 +594,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
    ============================================================ */
 .hero {
   position: relative;
-  padding-top: clamp(8rem, 12vh, 10rem);
+  padding-top: clamp(10rem, 15vh, 13rem);
   background:
     radial-gradient(circle at 85% 15%, var(--color-accent-soft), transparent 45%),
     var(--color-surface);
@@ -1067,6 +1080,7 @@ body.modal-open { overflow: hidden; }
   .cards--2 { grid-template-columns: 1fr; }
 
   .about__media { height: 320px; }
+  .categories { grid-template-columns: 1fr; }
   .brand__logo { height: 38px; }
   .hero__actions { width: 100%; }
   .hero__actions .btn { flex: 1 1 auto; }

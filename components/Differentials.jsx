@@ -25,9 +25,9 @@ export default function Differentials() {
   return (
     <section className="section section--dark" id="diferenciais" aria-labelledby="dif-title">
       <div className="container">
-        <header className="section__head reveal">
+        <header className="section__head section__head--wide reveal">
           <p className="eyebrow">Por que escolher a Real Center</p>
-          <h2 id="dif-title" className="section__title">
+          <h2 id="dif-title" className="section__title section__title--oneline">
             Motivos para construir com a gente.
           </h2>
         </header>

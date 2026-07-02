@@ -134,6 +134,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR" className={`${fraunces.variable} ${manrope.variable}`}>
       <body>
+        <span id="topo" aria-hidden="true"></span>
         <a className="skip-link" href="#conteudo">
           Pular para o conteúdo
         </a>

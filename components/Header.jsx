@@ -55,7 +55,6 @@ export default function Header() {
   return (
     <header
       className="site-header"
-      id="topo"
       data-header
       {...(scrolled ? { "data-scrolled": "" } : {})}
     >
@@ -66,7 +65,7 @@ export default function Header() {
             src="/assets/img/logo.webp"
             alt="Real Center Materiais de Construção"
             className="brand__logo"
-            width="220"
+            width="234"
             height="44"
           />
         </a>
