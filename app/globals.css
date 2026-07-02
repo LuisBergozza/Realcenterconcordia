@@ -596,7 +596,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 }
 .hero__title {
   font-size: var(--fs-hero);
-  font-weight: 400;
+  font-weight: 350;
   margin-bottom: 1.4rem;
 }
 .hero__title em { font-style: italic; color: var(--accent); }
