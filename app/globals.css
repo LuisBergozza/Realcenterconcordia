@@ -46,7 +46,7 @@
   --font-body:    var(--font-manrope), system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
 
   /* Escala fluida (clamp = responsivo sem media query) */
-  --fs-hero: clamp(2.2rem, 1.3rem + 3.6vw, 4rem);
+  --fs-hero: clamp(2.2rem, 1.3rem + 3.6vw, 3.8rem);
   --fs-h2:   clamp(1.8rem, 1.3rem + 2.1vw, 2.7rem);
   --fs-h3:   clamp(1.15rem, 1rem + 0.5vw, 1.35rem);
   --fs-lead: clamp(1.02rem, 0.95rem + 0.4vw, 1.18rem);
@@ -596,7 +596,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
 }
 .hero__title {
   font-size: var(--fs-hero);
-  font-weight: 250;
+  font-weight: 350;
   margin-bottom: 1.4rem;
 }
 .hero__title em { font-style: italic; color: var(--accent); }
