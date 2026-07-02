@@ -1,8 +1,0 @@
-# robots.txt — Real Center
-# Permite a indexação de todo o site pelos mecanismos de busca.
-
-User-agent: *
-Allow: /
-
-# Sitemap (TROCAR pelo domínio final)
-Sitemap: https://www.realcenter.com.br/sitemap.xml
