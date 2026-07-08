@@ -24,7 +24,7 @@ const manrope = Manrope({
    SEO — Metadata API (TROCAR domínio e textos finais)
    ---------------------------------------------------------------- */
 export const metadata = {
-  metadataBase: new URL("https://www.realcenter.com.br"),
+  metadataBase: new URL("https://www.realcenterconcordia.com.br"),
   title: {
     default: "Real Center | Materiais de Construção e Acabamentos",
     template: "%s | Real Center",
