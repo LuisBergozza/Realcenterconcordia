@@ -84,10 +84,6 @@ export const metadata = {
     follow: true,
     "max-image-preview": "large",
   },
-  icons: {
-  icon: "/icon.png",
-  apple: "/apple-icon.png",
-},
   openGraph: {
     type: "website",
     locale: "pt_BR",
