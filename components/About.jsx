@@ -5,7 +5,7 @@ export default function About() {
         <div className="reveal">
           <p className="eyebrow">Sobre a Real Center</p>
           <h2 id="sobre-title" className="section__title">
-            Uma referência em construção e acabamentos desde 2007.
+            Uma referência em construção e acabamentos.
           </h2>
           <p className="section__text">
             Mais do que uma loja de materiais, a Real Center é um parceiro para quem
@@ -24,11 +24,11 @@ export default function About() {
               <span>Ano de fundação</span>
             </li>
             <li>
-              <strong>+5.000 m²</strong>
+              <strong>+4.000 m²</strong>
               <span>Loja &amp; depósito</span>
             </li>
             <li>
-              <strong>+20</strong>
+              <strong>+40</strong>
               <span>Colaboradores</span>
             </li>
           </ul>
