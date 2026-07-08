@@ -94,7 +94,7 @@ export const metadata = {
     url: "/",
     images: [
       {
-        url: "/assets/img/og-image.jpg",
+        url: "/assets/img/og-image.png",
         width: 1200,
         height: 630,
         alt: "Real Center Materiais de Construção e Acabamentos",
@@ -106,7 +106,7 @@ export const metadata = {
     title: "Real Center | Materiais de Construção e Acabamentos",
     description:
       "Tudo para a sua obra com as melhores marcas e atendimento especializado.",
-    images: ["/assets/img/og-image.jpg"],
+    images: ["/assets/img/og-image.png"],
   },
 };
 
@@ -121,7 +121,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HardwareStore",
   name: "Real Center Materiais de Construção e Acabamentos",
-  image: "https://www.realcenter.com.br/assets/img/og-image.jpg",
+  image: "https://www.realcenter.com.br/assets/img/og-image.png",
   "@id": "https://www.realcenter.com.br/#business",
   url: "https://www.realcenter.com.br/",
   telephone: "+55-49-3444-9110",
