@@ -48,7 +48,7 @@ export default function Footer() {
           <h3>Atendimento</h3>
           <ul>
             <li>Segunda a sexta: 7h às 18h</li>
-            <li>Sábado: 7h às 12h</li>
+            <li>Sábado: 7h às 11:30h</li>
           </ul>
           <span className="footer__online" aria-disabled="true">
             Loja online <span className="badge">Em breve</span>
