@@ -85,8 +85,9 @@ export const metadata = {
     "max-image-preview": "large",
   },
   icons: {
-    icon: "data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2032%2032'%3E%3Crect%20width='32'%20height='32'%20rx='7'%20fill='%231d1b1a'/%3E%3Ctext%20x='50%25'%20y='53%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-family='Georgia,serif'%20font-size='17'%20fill='%23bf5a3e'%3ER%3C/text%3E%3C/svg%3E",
-  },
+  icon: "/icon.png",
+  apple: "/apple-icon.png",
+},
   openGraph: {
     type: "website",
     locale: "pt_BR",
