@@ -23,7 +23,7 @@ const GROUPS = [
       "Revestimentos",
       "Rodapés",
       "Rejuntes",
-      "Placas vinílicas",
+      "Placas vinílicas", "Forros", "Painel Ripado", "Metais e louças"
     ],
   },
   {
@@ -31,14 +31,14 @@ const GROUPS = [
     name: "Banheiro",
     desc: "Louças, metais e acessórios completos.",
     img: "/assets/img/Produtos/banheiro.webp",
-    items: ["Vasos", "Cubas", "Torneiras", "Chuveiros", "Acessórios"],
+    items: ["Vasos", "Cubas", "Torneiras", "Chuveiros", "Acessórios", "Lixeiros"],
   },
   {
     key: "hidraulica",
     name: "Hidráulica",
     desc: "Tudo para a instalação de água e esgoto.",
     img: "/assets/img/Produtos/hidraulica.webp",
-    items: ["Tubos", "Conexões", "Caixas d'água", "Bombas"],
+    items: ["Tubos", "Conexões", "Caixas d'água", "Mantas para dreno"],
   },
 ];
 
