@@ -3,7 +3,7 @@ const STATS = [
   { count: 30000, suffix: "", prefix: "+", label: "Clientes atendidos" },
   { count: 5000, suffix: "", prefix: "+", label: "Produtos disponíveis" },
   // TROCAR: confirmar total real (há 15 logos em destaque no carrossel)
-  { count: 15, suffix: "", prefix: "+", label: "Marcas parceiras" },
+  { count: 50, suffix: "", prefix: "+", label: "Marcas parceiras" },
 ];
 
 export default function Numbers() {
