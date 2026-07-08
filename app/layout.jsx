@@ -121,9 +121,9 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "HardwareStore",
   name: "Real Center Materiais de Construção e Acabamentos",
-  image: "https://www.realcenter.com.br/assets/img/og-image.png",
-  "@id": "https://www.realcenter.com.br/#business",
-  url: "https://www.realcenter.com.br/",
+  image: "https://www.realcenterconcordia.com.br/assets/img/og-image.png",
+  "@id": "https://www.realcenterconcordia.com.br/#business",
+  url: "https://www.realcenterconcordia.com.br/",
   telephone: "+55-49-3444-9110",
   priceRange: "$$",
   foundingDate: "2007",
@@ -141,8 +141,8 @@ const jsonLd = {
   geo: {
     // TROCAR: coordenadas aproximadas de Concórdia/SC — ajustar ao ponto exato
     "@type": "GeoCoordinates",
-    latitude: "-27.233600",
-    longitude: "-52.027800",
+  latitude: "-27.226614",
+  longitude: "-52.018315"
   },
   openingHoursSpecification: [
     {
@@ -159,8 +159,8 @@ const jsonLd = {
     },
   ],
   sameAs: [
-    "https://www.instagram.com/realcenter",
-    "https://www.facebook.com/realcenter",
+    "https://www.instagram.com/realcenterconcordia/",
+    "https://www.facebook.com/RealCenterConcordia",
   ],
 };
 
