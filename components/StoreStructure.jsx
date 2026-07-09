@@ -2,9 +2,9 @@
 const AREAS = [
   { label: "Entrada", src: "/assets/img/Estrutura/Entrada.webp" },
   { label: "Vitrine", src: "/assets/img/Estrutura/Vitirne (3).webp" },
-  { label: "Vitrine", src: "/assets/img/Estrutura/Vitirne (4).webp" },
+  { label: "Vitrine 2", src: "/assets/img/Estrutura/Vitirne (4).webp" },
   { label: "Lounge", src: "/assets/img/Estrutura/Lounge.webp" },
-  { label: "Expositores de Porcelanatos", src: "/assets/img/Estrutura/Expositores Porcelanatos (2).webp" },
+  { label: "Expositores", src: "/assets/img/Estrutura/Expositores Porcelanatos (2).webp" },
   { label: "Louças e Metais", src: "/assets/img/Estrutura/Louças e Metais.webp" },
   { label: "Bacias Sanitárias", src: "/assets/img/Estrutura/Bacias Sanitárias.webp" },
   { label: "Espaço Kids", src: "/assets/img/Estrutura/Espaço Kids.webp" },
