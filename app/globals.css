@@ -643,7 +643,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; line-height: 1.
    ============================================================ */
 .hero {
   position: relative;
-  padding-top: clamp(7rem, 10vh, 9rem);
+  padding-top: clamp(8rem, 10vh, 9rem);
   background:
     radial-gradient(circle at 85% 15%, var(--color-accent-soft), transparent 45%),
     var(--color-surface);
