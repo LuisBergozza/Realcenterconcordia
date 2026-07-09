@@ -26,11 +26,11 @@ const manrope = Manrope({
 export const metadata = {
   metadataBase: new URL("https://www.realcenterconcordia.com.br"),
   title: {
-    default: "Real Center | Materiais de Construção e Acabamentos",
+    default: "Real Center | Materiais de Construção e Acabamentos em Concórdia SC",
     template: "%s | Real Center",
   },
   description:
-    "Real Center Materiais de Construção e Acabamentos. Tudo para a sua obra com as melhores marcas, atendimento especializado e a credibilidade de uma referência na região.",
+    "Real Center em Concórdia SC: materiais de construção, pisos, porcelanatos, telhas e acabamentos para sua obra. Atendimento especializado e marcas de qualidade.",
  keywords: [
   "Materiais de Construção em Concórdia",
   "Loja de Acabamentos em Concórdia",
@@ -77,8 +77,10 @@ export const metadata = {
   "Acabamentos Santa Catarina"
 ],
   authors: [{ name: "Real Center" }],
-  alternates: { canonical: "/" },
+  alternates: { canonical: "https://www.realcenterconcordia.com.br/"},
   manifest: "/site.webmanifest",
+   creator: "Real Center",
+   publisher: "Real Center Materiais de Construção",
   robots: {
     index: true,
     follow: true,
@@ -88,7 +90,7 @@ export const metadata = {
     type: "website",
     locale: "pt_BR",
     siteName: "Real Center",
-    title: "Real Center | Materiais de Construção e Acabamentos",
+    title: "Real Center | Materiais de Construção e Acabamentos em Concórdia SC",
     description:
       "Tudo para a sua obra com as melhores marcas, atendimento especializado e credibilidade. Conheça a Real Center.",
     url: "/",
@@ -103,7 +105,7 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Real Center | Materiais de Construção e Acabamentos",
+    title: "Real Center | Materiais de Construção e Acabamentos em Concórdia SC",
     description:
       "Tudo para a sua obra com as melhores marcas e atendimento especializado.",
     images: ["/assets/img/og-image.png"],
@@ -119,10 +121,11 @@ export const viewport = {
 /* Schema Markup — LocalBusiness (TROCAR dados reais) */
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "HardwareStore",
+  "@type": "HomeAndConstructionBusiness",
   name: "Real Center Materiais de Construção e Acabamentos",
   image: "https://www.realcenterconcordia.com.br/assets/img/og-image.png",
-  "@id": "https://www.realcenterconcordia.com.br/#business",
+   logo: "https://www.realcenterconcordia.com.br/assets/img/logo.png",
+  "@id": "https://www.realcenterconcordia.com.br/#localbusiness",
   url: "https://www.realcenterconcordia.com.br/",
   telephone: "+55-49-3444-9110",
   priceRange: "$$",
@@ -162,6 +165,48 @@ const jsonLd = {
     "https://www.instagram.com/realcenterconcordia/",
     "https://www.facebook.com/RealCenterConcordia",
   ],
+   areaServed: [
+  {
+    "@type": "City",
+    name: "Concórdia",
+  },
+  {
+    "@type": "AdministrativeArea",
+    name: "Santa Catarina",
+  },
+],
+   contactPoint: {
+  "@type": "ContactPoint",
+  telephone: "+55-49-3444-9110",
+  contactType: "customer service",
+  availableLanguage: "Portuguese",
+},
+   hasOfferCatalog: {
+  "@type": "OfferCatalog",
+  name: "Produtos",
+  itemListElement: [
+    {
+      "@type": "OfferCatalog",
+      name: "Pisos e Porcelanatos",
+    },
+    {
+      "@type": "OfferCatalog",
+      name: "Materiais de Construção",
+    },
+    {
+      "@type": "OfferCatalog",
+      name: "Telhas",
+    },
+    {
+      "@type": "OfferCatalog",
+      name: "Louças e Metais",
+    },
+    {
+      "@type": "OfferCatalog",
+      name: "Tubos e Conexões",
+    },
+  ],
+},
 };
 
 export default function RootLayout({ children }) {
