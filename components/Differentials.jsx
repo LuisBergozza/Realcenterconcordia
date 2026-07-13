@@ -3,7 +3,7 @@ import {
   ShieldCheckIcon,
   BuildingIcon,
   WalletIcon,
-} from "@/components/Icons";
+} from "@/components/icons";
 
 const CARDS = [
   {
