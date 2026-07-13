@@ -12,17 +12,17 @@ const CARDS = [
     text: "Nossa equipe está preparada para orientar e ajudar você a encontrar as melhores soluções para cada etapa da obra ou reforma.",
   },
   {
-    icon: "🏅​",
+    icon: <ShieldCheckIcon />,
     title: "Produtos selecionados",
     text: "Trabalhamos com marcas reconhecidas e uma curadoria de produtos para garantir qualidade, durabilidade e confiança.",
   },
   {
-    icon: "🏗️​",
+    icon: <BuildingIcon />,
     title: "Estrutura e agilidade para atender você",
     text: "Com ampla estrutura, estoque preparado e processos ágeis, oferecemos mais praticidade e eficiência do início ao fim da compra.",
   },
   {
-    icon: "💵",
+    icon: <WalletIcon />,
     title: "Preço justo para construir melhor",
     text: "Condições competitivas e excelente custo-benefício para você realizar sua obra com qualidade sem gastar além do necessário.",
   },
