@@ -1,3 +1,10 @@
+import {
+  HandshakeIcon,
+  ShieldCheckIcon,
+  BuildingIcon,
+  WalletIcon,
+} from "@/components/Icons";
+
 const CARDS = [
   {
     icon: "🤝​",
