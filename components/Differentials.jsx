@@ -7,7 +7,7 @@ import {
 
 const CARDS = [
   {
-    icon: "🤝​",
+    icon: <HandshakeIcon />,
     title: "Atendimento especializado",
     text: "Nossa equipe está preparada para orientar e ajudar você a encontrar as melhores soluções para cada etapa da obra ou reforma.",
   },
