@@ -15,10 +15,10 @@ export default function Footer() {
           </p>
           <div className="footer__social">
             {/* TROCAR: links reais das redes sociais */}
-            <a href="https://instagram.com/realcenter" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/realcenterconcordia" aria-label="Instagram" target="_blank" rel="noopener noreferrer">
               Instagram
             </a>
-            <a href="https://facebook.com/realcenter" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/RealCenterConcordia" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
               Facebook
             </a>
           </div>
