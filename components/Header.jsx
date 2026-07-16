@@ -88,7 +88,7 @@ export default function Header() {
               </li>
             ))}
             <li className="nav__cta">
-              <a href="https://realcenter9.lojavirtualnuvem.com.br/" className="btn btn--soon">
+              <a href="https://loja.realcenterconcordia.com.br/" className="btn btn--soon">
                 Loja Online
                 <span className="badge">Em breve</span>
               </a>
